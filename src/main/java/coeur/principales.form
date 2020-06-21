@@ -326,10 +326,13 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelFond">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\aleja\Documents\ISEN\S2\ProjetDataScience\Projet\ProjetJava\src\main\java\images\fondo1.png"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.ImageIcon(Path+&quot;\\src\\main\\java\\images\\fondo1.png&quot;)" type="code"/>
         </Property>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="String Path=System.getProperty(&quot;user.dir&quot;);"/>
+      </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="0" y="0" width="390" height="590"/>

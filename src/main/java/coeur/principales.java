@@ -148,8 +148,6 @@ public class principales extends javax.swing.JFrame {
                 .addGap(78, 78, 78))
         );
 
-        jComboBoxChoose.getAccessibleContext().setAccessibleParent(null);
-
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, 320, 140));
 
         jButtonClose.setBackground(new java.awt.Color(153, 0, 153));
@@ -174,7 +172,8 @@ public class principales extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonSend, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 350, -1, -1));
 
-        jLabelFond.setIcon(new javax.swing.ImageIcon("C:\\Users\\aleja\\Documents\\ISEN\\S2\\ProjetDataScience\\Projet\\ProjetJava\\src\\main\\java\\images\\fondo1.png")); // NOI18N
+        String Path=System.getProperty("user.dir");
+        jLabelFond.setIcon(new javax.swing.ImageIcon(Path+"\\src\\main\\java\\images\\fondo1.png"));
         getContentPane().add(jLabelFond, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 390, 590));
 
         pack();
